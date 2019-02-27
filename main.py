@@ -9,9 +9,9 @@ def home():
 def about():
    return render_template("about.html")
 
-@app.route("/salvador")
-def salvador():
-    return "Hello, Salvador"
+@app.route("/abdul")
+def abdul():
+    return "Hello, Abdul"
 
 if __name__ == '__main__':
    app.run(debug = True)
